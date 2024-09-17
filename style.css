@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: rgb(28, 32, 29);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(208, 11, 11, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    color: #f8fffc;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid hsl(150, 65%, 25%);
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: rgb(252, 248, 248);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.output {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5c5959;
+    font-weight: bold;
+}
+.output span {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffeb3b;
+    color: #c01919;
+    font-size: 24px;
+    font-weight: bold;
+}
+    .output span:nth-child(odd) {
+        background-color: #b1959e; /* Pink */
+        color: white;
+    }
+    .output span:nth-child(even) {
+        background-color: #ce5818; /* Light blue */
+        color: white;
+    }
